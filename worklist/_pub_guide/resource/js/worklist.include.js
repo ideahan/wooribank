@@ -79,13 +79,14 @@ function inc_filter(){
 
 	str+='			<tr>';
 	str+='				<td class="filter_btn">';
-	str+='					<div><a href="javascript:void(0);" class="equal btn bullet" title="equal"><span>동일</span></a>';
+	str+='					<div><a href="javascript:void(0);" class="del btn bullet" title="del"><span>삭제</span></a>';
+	str+='					<a href="javascript:void(0);" class="equal btn bullet" title="equal"><span>동일</span></a>';
 	str+='					<a href="javascript:void(0);" class="hold btn bullet" title="hold"><span>보류</span></a>';
+	str+='					<a href="javascript:void(0);" class="change btn bullet" title="change"><span>수정</span></a>';
 	str+='					<a href="javascript:void(0);" class="rework btn bullet" title="rework"><span>재확인</span></a>';
-	// str+='					<a href="javascript:void(0);" class="layer btn bullet" title="layer"><span>레이어</span></a>';
+	str+='					<a href="javascript:void(0);" class="layer btn bullet" title="layer"><span>레이어</span></a>';
 	str+='					<a href="javascript:void(0);" class="popup btn bullet" title="popup"><span>팝업</span></a>';
 	str+='					<a href="javascript:void(0);" class="new btn bullet" title="new"><span>우선</span></a></div>';
-	str+='					<a href="javascript:void(0);" class="del btn bullet" title="del"><span>삭제</span></a>';
 	str+='					<a href="javascript:void(0);" class="result btn bullet" title="result"><span>완료</span></a>';
 	str+='					<a href="javascript:void(0);" class="result_ex btn bullet" title="result_ex"><span>미완</span></a>';
 	str+='					<a href="javascript:void(0);" class="total btn bullet on" title="total"><span>Total</span></a>';

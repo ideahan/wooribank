@@ -8,4 +8,14 @@ tr.equal > td.path a{color:#333;}
 td.info{font-size:10px;}
 td.rdate,
 td.mdate{text-align:center;}
+.tab_contents_wrap table tr td:first-child:before {top:50%;left:7px;width:5px;height:5px;margin-top:-2px;}
+.btn.change.on span{background-color:#d962fd;border-color:#d962fd;}
+.btn.change span:after {background-color:#d962fd}
+.tab_contents_wrap table tr.del td:first-child:before {background-color:#c1c1c1}
+.tab_contents_wrap table tr.equal td:first-child:before {background-color:gray}
+.tab_contents_wrap table tr.hold td:first-child:before {background-color:#F7931E}
+.tab_contents_wrap table tr.rework td:first-child:before {background-color:#8CC63F}
+.tab_contents_wrap table tr.popup td:first-child:before {background-color:#C69C6D}
+.tab_contents_wrap table tr.new td:first-child:before {background-color:#3cf}
+.tab_contents_wrap table tr.change td:first-child:before {background-color:#d962fd}
 /*# sourceMappingURL=maps/worklist.css.map */

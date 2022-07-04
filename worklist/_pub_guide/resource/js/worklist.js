@@ -1738,6 +1738,7 @@ $(document).ready(function(){
 				, $newBtn = rMap.info_section.find('a.new') //신규
 				, $delBtn = rMap.info_section.find('a.del') //삭제
 				, $holdBtn = rMap.info_section.find('a.hold') //보류
+				, $changeBtn = rMap.info_section.find('a.change') //수정
 				, $reworkBtn = rMap.info_section.find('a.rework') //재확인
 				, $equalBtn = rMap.info_section.find('a.equal') //동일
 				, $layerBtn = rMap.info_section.find('a.layer') //레이어팝
@@ -1826,7 +1827,7 @@ $(document).ready(function(){
 						tmpIndex = totalCnt;
 					}
 
-					$(this).find('.num').prepend('<div class="infoBullet"><span class="del"></span><span class="equal"></span><span class="hold"></span><span class="rework"></span><span class="popup"></span><span class="new"></span></div>')
+					// $(this).find('.num').prepend('<div class="infoBullet"><span class="del"></span><span class="equal"></span><span class="hold"></span><span class="rework"></span><span class="popup"></span><span class="new"></span></div>')
 					// $(this).find('.num').prepend('<div class="infoBullet"><span class="del">aa</span></div>')
 				});
 
@@ -1844,6 +1845,7 @@ $(document).ready(function(){
 				var newCnt = 0
 					, delCnt = 0
 					, holdCnt = 0
+					, changeCnt = 0
 					, reworkCnt = 0
 					, equalCnt = 0
 					, layerCnt = 0
@@ -1917,6 +1919,7 @@ $(document).ready(function(){
 				$newBtn.find('span').text('신규 : ' + newCnt);
 				$delBtn.find('span').text('삭제 : ' + delCnt);
 				$holdBtn.find('span').text('보류 : ' + holdCnt);
+				$changeBtn.find('span').text('수정 : ' + holdCnt);
 				$reworkBtn.find('span').text('재확인 : ' + reworkCnt);
 				$equalBtn.find('span').text('동일 : ' + equalCnt);
 				$layerBtn.find('span').text('레이어 : ' + layerCnt);
